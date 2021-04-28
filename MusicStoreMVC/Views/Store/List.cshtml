@@ -1,0 +1,16 @@
+﻿@using MusicStoreMVC.Models;
+@using MusicStoreMVC.ViewModels;
+@model ArtistAlbums
+
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List of albums by artist: @Model.Artist.Name</h2>
+<ul>
+    @foreach (Album a in Model.Albums){
+        <li>@a.Title</li>
+    }
+</ul>
+
+

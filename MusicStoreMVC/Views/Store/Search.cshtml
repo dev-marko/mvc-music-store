@@ -1,0 +1,13 @@
+﻿@using MusicStoreMVC.Models;
+@model IEnumerable<Album>
+@{
+    ViewBag.Title = "Search";
+}
+
+<h2>Result: </h2>
+<ul>
+    @foreach (Album a in Model) { 
+        <li>@a.Title</li>
+    }
+</ul>
+
