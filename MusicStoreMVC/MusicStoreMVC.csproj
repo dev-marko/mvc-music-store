@@ -175,6 +175,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202105060833037_InitialMigration.cs" />
+    <Compile Include="Migrations\202105060833037_InitialMigration.Designer.cs">
+      <DependentUpon>202105060833037_InitialMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202105060904585_PopulateGenres.cs" />
+    <Compile Include="Migrations\202105060904585_PopulateGenres.Designer.cs">
+      <DependentUpon>202105060904585_PopulateGenres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Album.cs" />
     <Compile Include="Models\Artist.cs" />
@@ -247,6 +256,7 @@
     <Content Include="Views\Store\Search.cshtml" />
     <Content Include="Views\Genre\Index.cshtml" />
     <Content Include="Views\Genre\Create.cshtml" />
+    <Content Include="Views\Genre\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -263,6 +273,14 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202105060833037_InitialMigration.resx">
+      <DependentUpon>202105060833037_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202105060904585_PopulateGenres.resx">
+      <DependentUpon>202105060904585_PopulateGenres.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

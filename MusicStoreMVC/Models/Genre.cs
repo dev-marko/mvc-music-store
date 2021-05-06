@@ -10,7 +10,6 @@ namespace MusicStoreMVC.Models
         public int GenreId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-
-        public Genre() { }
+        public virtual List<Album> Albums { get; set; }
     }
 }

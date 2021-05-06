@@ -106,3 +106,6 @@ C:\Users\marko\source\repos\MusicStoreMVC\MusicStoreMVC\obj\Debug\MusicStoreMVC.
 C:\Users\marko\source\repos\MusicStoreMVC\MusicStoreMVC\obj\Debug\MusicStoreMVC.csproj.CopyComplete
 C:\Users\marko\source\repos\MusicStoreMVC\MusicStoreMVC\obj\Debug\MusicStoreMVC.dll
 C:\Users\marko\source\repos\MusicStoreMVC\MusicStoreMVC\obj\Debug\MusicStoreMVC.pdb
+C:\Users\marko\source\repos\MusicStoreMVC\MusicStoreMVC\obj\Debug\MusicStoreMVC.Migrations.InitialMigration.resources
+C:\Users\marko\source\repos\MusicStoreMVC\MusicStoreMVC\obj\Debug\MusicStoreMVC.csproj.GenerateResource.cache
+C:\Users\marko\source\repos\MusicStoreMVC\MusicStoreMVC\obj\Debug\MusicStoreMVC.Migrations.PopulateGenres.resources

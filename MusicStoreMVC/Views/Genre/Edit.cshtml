@@ -1,0 +1,25 @@
+﻿@model MusicStoreMVC.Models.Genre
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm("EditGenre", "Genre", FormMethod.Post))
+{
+    /*<div class="form-group">
+        @Html.LabelFor(m => m.GenreId)
+        @Html.TextBoxFor(m => m.GenreId)
+    </div>*/
+
+    @Html.HiddenFor(m => m.GenreId);
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.Name)
+        @Html.TextBoxFor(m => m.Name)
+    </div>
+
+    <button class="btn btn-primary" type="submit">Submit</button>
+}
+

@@ -9,7 +9,6 @@ namespace MusicStoreMVC.Models
     {
         public int ArtistId { get; set; }
         public string Name { get; set; }
-
-        public Artist() { }
+        public virtual List<Album> Albums { get; set; }
     }
 }

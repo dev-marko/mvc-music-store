@@ -8,10 +8,12 @@
 
 @using (Html.BeginForm("CreateNew", "Genre"))
 {
-    <div class="form-group">
+    /*<div class="form-group">
         @Html.LabelFor(m => m.GenreId)
         @Html.TextBoxFor(m => m.GenreId)
-    </div>
+    </div>*/
+
+    @Html.HiddenFor(m => m.GenreId);
 
     <div class="form-group">
         @Html.LabelFor(m => m.Name)
